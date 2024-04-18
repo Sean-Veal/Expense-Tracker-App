@@ -27,6 +27,9 @@
 		15E595D72B96645400B59B95 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E595D62B96645400B59B95 /* TransactionCardView.swift */; };
 		15FFE86C2BC6E6EE00DB8F3B /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FFE86B2BC6E6EE00DB8F3B /* SwipeAction.swift */; };
 		15FFE86E2BC6E96700DB8F3B /* DateFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FFE86D2BC6E96700DB8F3B /* DateFilterView.swift */; };
+		15FFE88D2BCD97C400DB8F3B /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FFE88C2BCD97C400DB8F3B /* LockView.swift */; };
+		15FFE88F2BD17FD300DB8F3B /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FFE88E2BD17FD300DB8F3B /* TransactionView.swift */; };
+		15FFE8912BD1AAEA00DB8F3B /* FilterTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FFE8902BD1AAEA00DB8F3B /* FilterTransactionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +54,9 @@
 		15E595D62B96645400B59B95 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
 		15FFE86B2BC6E6EE00DB8F3B /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
 		15FFE86D2BC6E96700DB8F3B /* DateFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFilterView.swift; sourceTree = "<group>"; };
+		15FFE88C2BCD97C400DB8F3B /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
+		15FFE88E2BD17FD300DB8F3B /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		15FFE8902BD1AAEA00DB8F3B /* FilterTransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTransactionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +114,7 @@
 				15E595D32B96507E00B59B95 /* Helpers */,
 				15E595C62B96441A00B59B95 /* TabViews */,
 				15E595A62B87E5EC00B59B95 /* IntroScreen.swift */,
+				15FFE88E2BD17FD300DB8F3B /* TransactionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,6 +158,8 @@
 				15E595D62B96645400B59B95 /* TransactionCardView.swift */,
 				15FFE86B2BC6E6EE00DB8F3B /* SwipeAction.swift */,
 				15FFE86D2BC6E96700DB8F3B /* DateFilterView.swift */,
+				15FFE88C2BCD97C400DB8F3B /* LockView.swift */,
+				15FFE8902BD1AAEA00DB8F3B /* FilterTransactionsView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -233,14 +242,17 @@
 				15E595D52B96508F00B59B95 /* CardView.swift in Sources */,
 				15FFE86C2BC6E6EE00DB8F3B /* SwipeAction.swift in Sources */,
 				15E595A72B87E5EC00B59B95 /* IntroScreen.swift in Sources */,
+				15FFE88F2BD17FD300DB8F3B /* TransactionView.swift in Sources */,
 				15E595AC2B87E9F600B59B95 /* Tab.swift in Sources */,
 				15E595CE2B96449E00B59B95 /* Settings.swift in Sources */,
 				15E595972B87E5BA00B59B95 /* Expense_TrackerApp.swift in Sources */,
 				15E595CA2B96448500B59B95 /* Search.swift in Sources */,
 				15E595D22B964D7000B59B95 /* Date+Extensions.swift in Sources */,
 				15E595D02B96463F00B59B95 /* View+Extensions.swift in Sources */,
+				15FFE88D2BCD97C400DB8F3B /* LockView.swift in Sources */,
 				15E595AA2B87E73B00B59B95 /* Constants.swift in Sources */,
 				15E595CC2B96448D00B59B95 /* Graphs.swift in Sources */,
+				15FFE8912BD1AAEA00DB8F3B /* FilterTransactionsView.swift in Sources */,
 				15E595C12B9641A900B59B95 /* Category.swift in Sources */,
 				15E595D72B96645400B59B95 /* TransactionCardView.swift in Sources */,
 			);
@@ -379,6 +391,7 @@
 				DEVELOPMENT_TEAM = 9UMVJMZB96;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -408,6 +421,7 @@
 				DEVELOPMENT_TEAM = 9UMVJMZB96;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
