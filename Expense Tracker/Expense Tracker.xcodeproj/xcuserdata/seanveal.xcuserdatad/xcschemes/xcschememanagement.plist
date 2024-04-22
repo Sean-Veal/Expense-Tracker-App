@@ -9,6 +9,31 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>StatsCardViewExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>15E595922B87E5BA00B59B95</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>15FFE8972BD6D85800DB8F3B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>15FFE8B42BD6D92400DB8F3B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

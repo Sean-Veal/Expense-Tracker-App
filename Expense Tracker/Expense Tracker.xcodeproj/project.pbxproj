@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		155F33AB2BD6DE0C00BEDD93 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FFE89A2BD6D85800DB8F3B /* WidgetKit.framework */; };
+		155F33AC2BD6DE0C00BEDD93 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FFE89C2BD6D85800DB8F3B /* SwiftUI.framework */; };
+		155F33AF2BD6DE0C00BEDD93 /* StatsCardViewBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155F33AE2BD6DE0C00BEDD93 /* StatsCardViewBundle.swift */; };
+		155F33B12BD6DE0C00BEDD93 /* StatsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155F33B02BD6DE0C00BEDD93 /* StatsCardView.swift */; };
+		155F33B32BD6DE0D00BEDD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155F33B22BD6DE0D00BEDD93 /* Assets.xcassets */; };
+		155F33B72BD6DE0D00BEDD93 /* StatsCardViewExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 155F33AA2BD6DE0C00BEDD93 /* StatsCardViewExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		155F33BB2BD6DE7000BEDD93 /* FilterTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FFE8902BD1AAEA00DB8F3B /* FilterTransactionsView.swift */; };
+		155F33BC2BD6DECA00BEDD93 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E595CF2B96463F00B59B95 /* View+Extensions.swift */; };
+		155F33BD2BD6DF0A00BEDD93 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E595D12B964D7000B59B95 /* Date+Extensions.swift */; };
+		155F33BE2BD6DF1F00BEDD93 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E595D42B96508F00B59B95 /* CardView.swift */; };
+		155F33BF2BD6DF2F00BEDD93 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E595C02B9641A900B59B95 /* Category.swift */; };
+		155F33C02BD6DF7400BEDD93 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E595C22B9641E900B59B95 /* Transaction.swift */; };
+		155F33C12BD6DFAA00BEDD93 /* TintColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E595C42B96428900B59B95 /* TintColor.swift */; };
+		155F33C22BD6DFC300BEDD93 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E595A92B87E73B00B59B95 /* Constants.swift */; };
 		15E595972B87E5BA00B59B95 /* Expense_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E595962B87E5BA00B59B95 /* Expense_TrackerApp.swift */; };
 		15E595992B87E5BA00B59B95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E595982B87E5BA00B59B95 /* ContentView.swift */; };
 		15E5959B2B87E5BB00B59B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E5959A2B87E5BB00B59B95 /* Assets.xcassets */; };
@@ -30,9 +44,41 @@
 		15FFE88D2BCD97C400DB8F3B /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FFE88C2BCD97C400DB8F3B /* LockView.swift */; };
 		15FFE88F2BD17FD300DB8F3B /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FFE88E2BD17FD300DB8F3B /* TransactionView.swift */; };
 		15FFE8912BD1AAEA00DB8F3B /* FilterTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FFE8902BD1AAEA00DB8F3B /* FilterTransactionsView.swift */; };
+		15FFE8932BD6C7EB00DB8F3B /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FFE8922BD6C7EB00DB8F3B /* ChartModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		155F33B52BD6DE0D00BEDD93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15E5958B2B87E5BA00B59B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 155F33A92BD6DE0C00BEDD93;
+			remoteInfo = StatsCardViewExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15FFE8B02BD6D85900DB8F3B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				155F33B72BD6DE0D00BEDD93 /* StatsCardViewExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		155F33AA2BD6DE0C00BEDD93 /* StatsCardViewExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StatsCardViewExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		155F33AE2BD6DE0C00BEDD93 /* StatsCardViewBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCardViewBundle.swift; sourceTree = "<group>"; };
+		155F33B02BD6DE0C00BEDD93 /* StatsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCardView.swift; sourceTree = "<group>"; };
+		155F33B22BD6DE0D00BEDD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		155F33B42BD6DE0D00BEDD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		155F33C32BD6DFFD00BEDD93 /* Expense Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Expense Tracker.entitlements"; sourceTree = "<group>"; };
+		155F33C42BD6E03900BEDD93 /* StatsCardViewExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StatsCardViewExtension.entitlements; sourceTree = "<group>"; };
 		15E595932B87E5BA00B59B95 /* Expense Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E595962B87E5BA00B59B95 /* Expense_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_TrackerApp.swift; sourceTree = "<group>"; };
 		15E595982B87E5BA00B59B95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,9 +103,21 @@
 		15FFE88C2BCD97C400DB8F3B /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
 		15FFE88E2BD17FD300DB8F3B /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
 		15FFE8902BD1AAEA00DB8F3B /* FilterTransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTransactionsView.swift; sourceTree = "<group>"; };
+		15FFE8922BD6C7EB00DB8F3B /* ChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+		15FFE89A2BD6D85800DB8F3B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		15FFE89C2BD6D85800DB8F3B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		155F33A72BD6DE0C00BEDD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155F33AC2BD6DE0C00BEDD93 /* SwiftUI.framework in Frameworks */,
+				155F33AB2BD6DE0C00BEDD93 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15E595902B87E5BA00B59B95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,10 +128,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		155F33AD2BD6DE0C00BEDD93 /* StatsCardView */ = {
+			isa = PBXGroup;
+			children = (
+				155F33AE2BD6DE0C00BEDD93 /* StatsCardViewBundle.swift */,
+				155F33B02BD6DE0C00BEDD93 /* StatsCardView.swift */,
+				155F33B22BD6DE0D00BEDD93 /* Assets.xcassets */,
+				155F33B42BD6DE0D00BEDD93 /* Info.plist */,
+			);
+			path = StatsCardView;
+			sourceTree = "<group>";
+		};
 		15E5958A2B87E5BA00B59B95 = {
 			isa = PBXGroup;
 			children = (
+				155F33C42BD6E03900BEDD93 /* StatsCardViewExtension.entitlements */,
 				15E595952B87E5BA00B59B95 /* Expense Tracker */,
+				155F33AD2BD6DE0C00BEDD93 /* StatsCardView */,
+				15FFE8992BD6D85800DB8F3B /* Frameworks */,
 				15E595942B87E5BA00B59B95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				15E595932B87E5BA00B59B95 /* Expense Tracker.app */,
+				155F33AA2BD6DE0C00BEDD93 /* StatsCardViewExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +162,7 @@
 		15E595952B87E5BA00B59B95 /* Expense Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				155F33C32BD6DFFD00BEDD93 /* Expense Tracker.entitlements */,
 				15E595A82B87E72F00B59B95 /* Helpers */,
 				15E595A52B87E5D500B59B95 /* Model */,
 				15E595A42B87E5D100B59B95 /* View */,
@@ -126,6 +200,7 @@
 				15E595C02B9641A900B59B95 /* Category.swift */,
 				15E595C22B9641E900B59B95 /* Transaction.swift */,
 				15E595C42B96428900B59B95 /* TintColor.swift */,
+				15FFE8922BD6C7EB00DB8F3B /* ChartModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,9 +239,35 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		15FFE8992BD6D85800DB8F3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15FFE89A2BD6D85800DB8F3B /* WidgetKit.framework */,
+				15FFE89C2BD6D85800DB8F3B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		155F33A92BD6DE0C00BEDD93 /* StatsCardViewExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 155F33B82BD6DE0D00BEDD93 /* Build configuration list for PBXNativeTarget "StatsCardViewExtension" */;
+			buildPhases = (
+				155F33A62BD6DE0C00BEDD93 /* Sources */,
+				155F33A72BD6DE0C00BEDD93 /* Frameworks */,
+				155F33A82BD6DE0C00BEDD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatsCardViewExtension;
+			productName = StatsCardViewExtension;
+			productReference = 155F33AA2BD6DE0C00BEDD93 /* StatsCardViewExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		15E595922B87E5BA00B59B95 /* Expense Tracker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15E595A12B87E5BB00B59B95 /* Build configuration list for PBXNativeTarget "Expense Tracker" */;
@@ -174,10 +275,12 @@
 				15E5958F2B87E5BA00B59B95 /* Sources */,
 				15E595902B87E5BA00B59B95 /* Frameworks */,
 				15E595912B87E5BA00B59B95 /* Resources */,
+				15FFE8B02BD6D85900DB8F3B /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				155F33B62BD6DE0D00BEDD93 /* PBXTargetDependency */,
 			);
 			name = "Expense Tracker";
 			productName = "Expense Tracker";
@@ -191,9 +294,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
+				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					155F33A92BD6DE0C00BEDD93 = {
+						CreatedOnToolsVersion = 15.3;
+					};
 					15E595922B87E5BA00B59B95 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -213,11 +319,20 @@
 			projectRoot = "";
 			targets = (
 				15E595922B87E5BA00B59B95 /* Expense Tracker */,
+				155F33A92BD6DE0C00BEDD93 /* StatsCardViewExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		155F33A82BD6DE0C00BEDD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155F33B32BD6DE0D00BEDD93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15E595912B87E5BA00B59B95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,6 +345,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		155F33A62BD6DE0C00BEDD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155F33BB2BD6DE7000BEDD93 /* FilterTransactionsView.swift in Sources */,
+				155F33B12BD6DE0C00BEDD93 /* StatsCardView.swift in Sources */,
+				155F33C02BD6DF7400BEDD93 /* Transaction.swift in Sources */,
+				155F33BC2BD6DECA00BEDD93 /* View+Extensions.swift in Sources */,
+				155F33BD2BD6DF0A00BEDD93 /* Date+Extensions.swift in Sources */,
+				155F33C22BD6DFC300BEDD93 /* Constants.swift in Sources */,
+				155F33BE2BD6DF1F00BEDD93 /* CardView.swift in Sources */,
+				155F33AF2BD6DE0C00BEDD93 /* StatsCardViewBundle.swift in Sources */,
+				155F33C12BD6DFAA00BEDD93 /* TintColor.swift in Sources */,
+				155F33BF2BD6DF2F00BEDD93 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15E5958F2B87E5BA00B59B95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,6 +374,7 @@
 				15E595D52B96508F00B59B95 /* CardView.swift in Sources */,
 				15FFE86C2BC6E6EE00DB8F3B /* SwipeAction.swift in Sources */,
 				15E595A72B87E5EC00B59B95 /* IntroScreen.swift in Sources */,
+				15FFE8932BD6C7EB00DB8F3B /* ChartModel.swift in Sources */,
 				15FFE88F2BD17FD300DB8F3B /* TransactionView.swift in Sources */,
 				15E595AC2B87E9F600B59B95 /* Tab.swift in Sources */,
 				15E595CE2B96449E00B59B95 /* Settings.swift in Sources */,
@@ -260,7 +393,73 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		155F33B62BD6DE0D00BEDD93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 155F33A92BD6DE0C00BEDD93 /* StatsCardViewExtension */;
+			targetProxy = 155F33B52BD6DE0D00BEDD93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		155F33B92BD6DE0D00BEDD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StatsCardViewExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UMVJMZB96;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StatsCardView/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StatsCardView;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seanveal.Expense-Tracker.StatsCardView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		155F33BA2BD6DE0D00BEDD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = StatsCardViewExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UMVJMZB96;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StatsCardView/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StatsCardView;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seanveal.Expense-Tracker.StatsCardView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		15E5959F2B87E5BB00B59B95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -383,8 +582,10 @@
 		15E595A22B87E5BB00B59B95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Expense Tracker/Expense Tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Expense Tracker/Preview Content\"";
@@ -413,8 +614,10 @@
 		15E595A32B87E5BB00B59B95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Expense Tracker/Expense Tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Expense Tracker/Preview Content\"";
@@ -443,6 +646,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		155F33B82BD6DE0D00BEDD93 /* Build configuration list for PBXNativeTarget "StatsCardViewExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155F33B92BD6DE0D00BEDD93 /* Debug */,
+				155F33BA2BD6DE0D00BEDD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		15E5958E2B87E5BA00B59B95 /* Build configuration list for PBXProject "Expense Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
